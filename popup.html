@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body style="min-width:550px;">
+    <div>
+      <b
+        ><h1>
+          Book<span id="le">(le)</span>Mark <i class="fas fa-bookmark"></i></h1
+      ></b>
+    </div>
+    <div class="special">
+      <b class="create">Create a new reminder:</b><br />
+      <b>URL:</b>
+      <input type="url" id="reminder" placeholder="Enter the URL  " />
+      <b>Reminder Time:</b>
+      <input type="datetime-local" id="expireTime" /><br />
+    </div>
+    <button id="submit">+Add</button>
+    <br />
+    <b class="re">Reminders:</b>
+    <ol
+      id="reminders"
+      style="list-style-type: none;border-width:1px; border-style:solid; border-color: #F8EA8C; padding-left: 0; height:100px; overflow:hidden; overflow-y:scroll;"
+    ></ol>
+
+    <div>
+      <b class="rem">Expired Reminders:</b>
+      <ol
+        id="expRems"
+        style="list-style-type: none;border-width:1px; border-style:solid; border-color: #edaec0; height:100px; overflow:hidden; overflow-y:scroll;"
+      ></ol>
+      <button id="dismiss">Dismiss All Expired Reminders</button>
+      <hr class="new" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap");
+body {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 15px;
+  background-color: black;
+  color: aliceblue;
+}
+
+i {
+  color: cyan;
+  border-color: #edaec0;
+}
+#le {
+  color: #66ffff;
+}
+#submit {
+  margin-bottom: 8px;
+}
+#expiretime {
+  margin: 5px;
+}
+.re {
+  color: #f8ea8c;
+}
+.rem {
+  color: #edaec0;
+}
+#reminders {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: left;
+  padding-left: 10px;
+}
+.create {
+  font-size: 20px;
+}
+#expRems {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.special {
+  text-align: left;
+  margin-top: 0;
+}
+.new {
+  border: 2px solid #66ffff;
+  border-radius: 5px;
+}
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #66ffff;
+  border-radius: 5px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-color: #edaec0;
+  cursor: pointer;
+}
