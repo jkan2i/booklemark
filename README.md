@@ -1,6 +1,6 @@
 # Authors
-* **Kanishka Jain** (jkan2i)(https://www.github.com/jkan2i)
-* **Sarthak Pandey** (sarthakpandey30)(https://www.github.com/sarthakpandey30)
+* **Kanishka Jain** - *Initial work* - [jkan2i](https://github.com/jkan2i)
+* **Sarthak Pandey** - *Initial work* - [sarthakpandey30](https://github.com/sarthakpandey30)
 
 # booklemark
 
